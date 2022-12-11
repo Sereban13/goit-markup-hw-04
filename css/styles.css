@@ -150,7 +150,7 @@ body {
 
 /*hero section*/
 .hero-section {
-    max-height: 600px;  
+    max-width: 1600px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;   
@@ -210,9 +210,12 @@ body {
 }   
 .feature-card-icon {
     display: flex;
-    padding: 25px 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 30px;
     background-color: var(--secondary-background); 
 }
 .feature-title {
@@ -246,8 +249,8 @@ body {
 }
 
 /*team section*/
-.section .team {
-    background: var(--secondary-background);
+.team {
+    background-color: var(--secondary-background);
 }
 .team-section {
     display: flex;
@@ -262,9 +265,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-
-
-
 .team-member {
     max-width: 270px;
     height: auto;
@@ -370,7 +370,6 @@ body {
 .container-adress {
     margin-right: 70px;
 }
-
 
 /*logo footer*/
 .logo-footer {
@@ -499,8 +498,6 @@ body {
     display: flex;
     
     flex-direction: column;
-    /* align-items: flex-start;
-    justify-content: center; */
     width: 100%;
     height: 100%;
     text-decoration: none;
